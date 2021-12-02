@@ -1,0 +1,34 @@
+#tipos {
+    background-color: #f6eee1;
+}
+
+.cor-lilás {
+    color: #b3a9ee
+}
+
+footer {
+    background-color: #f7dcef;
+    color: #7a1c7e;
+}
+
+.map-container {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-container iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+
+/* se quiser que as imagens ocupem a tela toda de volta so deletar tudo depois dessa linha */
+.carousel-inner {
+  width: 70vw;
+  margin: auto;
+}
